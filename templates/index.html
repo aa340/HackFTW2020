@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Evolius Studios</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Sole Design Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script src="script.js" type="text/javascript">
+	</script>
+	<link href= "{{ url_for('static',filename='styles/css/bootstrap.css') }}" type="text/css" rel="stylesheet" media="all">
+	<link href= "{{ url_for('static',filename='styles/css/style.css') }}" type="text/css" rel="stylesheet" media="all">
+	<link href= "{{ url_for('static',filename='styles/css/font-awesome.min.css') }}" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+	 rel="stylesheet">
+</head>
+
+<body>
+
+	<section class="main-banner" style="background-image: url({{url_for('static', filename='images/banner1.jpg') }})" id="home">
+		<div class="overlay">
+			<div class="layer">
+				<div class="header-wthree-top-w3layouts text-right">
+					
+            <h1 class="logo"><a href="/"><img src="{{url_for('static', filename='images/logo.png') }}" style="border-radius:12px;" width="70px" height="70px" /></a></h1>  
+          
+                <ul id="menu">
+                    <li>
+                        <input id="check02" type="checkbox" name="menu" />
+                        <label for="check02"><span class="fa fa-bars" aria-hidden="true"></span></label>
+                        <ul class="submenu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#contact" class="scroll">What is climate change?</a></li>
+                            <li><a href="#services" class="scroll">Visualization</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div>
+               </div>
+            </div>
+            <div class="container">
+                <div class="baner-info-w3layouts text-center">
+                    <h3>Ecolizer</h3>
+                    <!--<h6 class="mx-auto mt-md-4 mt-3"><p style="color:white">Apply for our team</p></h6>-->
+                </div>
+                <div>
+                <br>
+                <ul style="padding:0;position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);"class="list-unstyled apps-lists text-right">
+               </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="contact py-5" id="contact">
+        <div class="container">
+
+            <div class="goalsinfo text-center">
+              <br>
+              If you don’t already know, global temperatures have been rising at an alarming rate. We look on with horror as our climate changes right before our eyes. 
+              <br>
+              <br>
+              A major contributor to climate change is greenhouse gases produced from large equipment like factories, including carbon dioxide, methane, and nitrous oxide.
+              <br>
+              <br>
+              There are several ways that we can stop climate change in its tracks. These include protecting and restoring key ecosystems, supporting small agricultural producers, promoting green energy,combatting short-lived climant pollutants, and working on reducing emmissions from items such as cars.
+              <br>
+            </div>
+        </div>
+    </section>
+    <section class="services py-lg-5 py-4" id="services">
+        <div class="container py-sm-4 py-4">
+            <div class="header-wthree py-lg-5 py-3 text-center">
+                <h3  class="title mb-lg-3 mb-3">Visualization</h3>
+            </div>
+            
+        </div>
+        <div class = "form1">
+          <form action="{{ url_for('single_year') }}" method="POST">
+            <input type = "number" required name = "year" placeholder="Single Year">
+            <input type = "submit">
+          </form> 
+          <hr style = "border: 1px solid black;width:90%">
+          <form action="{{ url_for('year_range') }}" method="POST"> 
+            <input type = "number" required name = "year-start" placeholder = "Start Year">
+            <input type = "number" required name = "year-end" placeholder = "End Year">
+            <input type = "submit">
+          </form>
+        </div> 
+        <div class="form1"> 
+          <img id="visualization" src="{{url_for('static', filename=path) }}" style="display:{{display}}">
+        </div>  
+    </section>
+
+    <script>
+      if ("{{scroll}}" == "visualization") {
+      document.getElementById("visualization").scrollIntoView();
+      }
+    </script>
+    
+    
+    <footer class="footer py-sm-5 py-5">
+        <div class="container py-xl-5 py-lg-3">
+            <div class="contact_grid_left">
+                <ul class="list-unstyled row text-left">
+                    
+
+                    
+                </ul>
+
+            </div>
+            <p class="copy-right-grids text-li text-center my-sm-4 my-4">© 2019 Ecolizer. All Rights Reserved
+            </p>
+            <div class="top_move text-center">
+                <a href="#home" class="move-top"><span class="fa fa-angle-up  mb-3" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+</body>
+</html>
