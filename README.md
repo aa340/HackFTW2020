@@ -12,7 +12,7 @@ Built during [HackFTW2020](www.hackftw.cf).
 ## Authors
 
 * **Arvand Amleshi** - [aa340](https://github.com/aa340)
-* **Evan Zimmerman** - [evanz142](https://github.com/evanz)
+* **Evan Zimmerman** - [Evanz142](https://github.com/evanz)
 
 ## External links
 
