@@ -16,6 +16,6 @@ Built during [HackFTW2020](https://hackftw.cf/).
 
 ## External links
 
-* [Hackathon Devpost](https://hack-for-the-world.devpost.com/)
+* [Hackathon devpost](https://hack-for-the-world.devpost.com/)
 * [Hackathon submission](https://devpost.com/software/the-ecolizer)
 * [Slide show for hackathon judging](https://docs.google.com/presentation/d/1r7HgRs788RTII9A9DMW11g5_NpVuwp6UrOYQtV5OGu4/edit?usp=sharing)
