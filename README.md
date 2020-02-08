@@ -1,6 +1,5 @@
 # HackFTW2020
-
-An educational app that visualizes and informs the negative nature of climate change. The purpose of the app is to convey how one has great power to gurantee a sustainable enviorment for the future generation of humans.
+An educational app that visualizes and informs the negative nature of [climate change](https://next.globalgoals.org/13-climate-action). The purpose of the app is to convey how one has great power to gurantee a sustainable enviorment for the future generation of humans.
 Built during [HackFTW2020](https://hackftw.cf/) and won 1st place.
 
 ## Built With
