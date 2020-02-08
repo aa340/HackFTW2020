@@ -4,7 +4,7 @@ Built during [HackFTW2020](https://hackftw.cf/) and won 1st place.
 
 ## Built With
 
-* Python (pandas, matplotlib, Flask)
+* Python (pandas, Matplotlib, Flask)
 * CSS
 * HTML
 
